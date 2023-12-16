@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/oumayma.jpg'),
+                backgroundImage: AssetImage('images/girl.jpeg'),
               ),
               Text(
                 'Oumayma Lazreg',
@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.cyan,
                   ),
                   title: Text(
-                    '+971 58 178 3345',
+                    '+4 55 171 3045',
                     style: TextStyle(color: Colors.black87, fontSize: 20.0),
                   ),
                 ),
@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.cyan,
                   ),
                   title: Text(
-                    'umaymalazreg@gmail.com',
+                    'flutter-developer@gmail.com',
                     style: TextStyle(color: Colors.black87, fontSize: 20.0),
                   ),
                 ),
