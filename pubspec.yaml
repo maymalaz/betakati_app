@@ -52,7 +52,6 @@ flutter:
   assets:
     - images/oumayma.jpg
 
-
   fonts:
      - family: Roboto
        fonts:
