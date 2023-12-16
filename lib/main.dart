@@ -47,6 +47,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
+
                 margin: EdgeInsets.only(
                     top: 15.0, left: 10.0, right: 10.0, bottom: 10.0),
                 color: Colors.white,
