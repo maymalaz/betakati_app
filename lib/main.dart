@@ -63,6 +63,7 @@ class MyApp extends StatelessWidget {
                       '+971 58 178 3345',
                       style: TextStyle(color: Colors.black87, fontSize: 20.0),
                     ) ,
+
                   ),
               ),
               Card(
