@@ -42,45 +42,39 @@ class MyApp extends StatelessWidget {
               SizedBox(
                 height: 20.0,
                 width: 250.0,
-
                 child: Divider(
                   color: Colors.cyan[100],
                 ),
-
-
               ),
               Card(
                 margin: EdgeInsets.only(
                     top: 15.0, left: 10.0, right: 10.0, bottom: 10.0),
                 color: Colors.white,
-
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.phone,
-                      color: Colors.cyan,
-                    ),
-                    title:Text(
-                      '+971 58 178 3345',
-                      style: TextStyle(color: Colors.black87, fontSize: 20.0),
-                    ) ,
-
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.cyan,
                   ),
+                  title: Text(
+                    '+971 58 178 3345',
+                    style: TextStyle(color: Colors.black87, fontSize: 20.0),
+                  ),
+                ),
               ),
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.all(10.0),
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.email,
-                      color: Colors.cyan,
-                    ),
-                    title: Text(
-                      'umaymalazreg@gmail.com',
-                      style: TextStyle(color: Colors.black87, fontSize: 20.0),
-                    ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.cyan,
+                  ),
+                  title: Text(
+                    'umaymalazreg@gmail.com',
+                    style: TextStyle(color: Colors.black87, fontSize: 20.0),
                   ),
                 ),
-
+              ),
             ],
           ),
         ),
